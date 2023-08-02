@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --red: #f05638; 
+    --white: #f7f8f9;
+    --link-blue: #27b9c2;
+    --purble: #8166b0;
+    --yellow: #ffc80a;
+    --dark-gray: #403737;
+    --light-blue: #4BCFEB;
+}
