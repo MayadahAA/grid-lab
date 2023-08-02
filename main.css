@@ -24,8 +24,6 @@
   grid-column: 3/5;
   background-color: var(--white);
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .sub-t {
   font-family: Montserrat, sans-serif;
@@ -144,6 +142,10 @@ h1 {
   grid-row: 3/4;
   grid-column: 2/4;
   background-color: var(--link-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .card-twitter {
   grid-row: 4/5;
