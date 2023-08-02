@@ -144,11 +144,17 @@ h1 {
   display: flex;
   justify-content:center;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: var(--white);
 }
 .card-little {
   grid-row: 4/5;
   grid-column: 2/3;
   background-color: var(--white);
+}
+.btn-g{
+    background-color: #7bc424;
 }
 .card-green-tv {
   grid-row: 4/5;
