@@ -119,7 +119,18 @@ h1 {
 .card-game {
   grid-row: 3/4;
   grid-column: 1/2;
-  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.g-img{
+    display: flex;
+    align-items: center;
+}
+.g-title{
+    font-size: 1.5em;
 }
 .card-taplet {
   grid-row: 3/4;
@@ -130,14 +141,17 @@ h1 {
   grid-row: 4/5;
   grid-column: 1/2;
   background-color: var(--light-blue);
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
 }
 .card-little {
   grid-row: 4/5;
   grid-column: 2/3;
-  background-color: var(--dark-gray);
+  background-color: var(--white);
 }
 .card-green-tv {
   grid-row: 4/5;
   grid-column: 3/5;
-  background-color: var(--red);
+  background-color: var(--dark-gray);
 }
