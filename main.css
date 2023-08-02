@@ -130,7 +130,8 @@ h1 {
 }
 .g-img{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
 }
 .g-title{
     font-size: 1.5em;
