@@ -110,7 +110,10 @@ h1 {
   justify-content:space-evenly;
 }
 .f-img{
-
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 .ti-f>div>button{
     background-color: #a485d8;
