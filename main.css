@@ -142,10 +142,9 @@ h1 {
   grid-column: 1/2;
   background-color: var(--light-blue);
   display: flex;
-  justify-content:center;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
+  align-items: center;
   color: var(--white);
 }
 .card-little {
