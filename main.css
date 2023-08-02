@@ -252,8 +252,16 @@ h1 {
   grid-column: 3/5;
   background-color: var(--dark-gray);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+.gt-txt{
+    color: var(--white);
+    display: flex;
+    width: 4em;
+}
+.gt-img{
+    display: flex;
 }
