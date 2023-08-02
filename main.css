@@ -89,6 +89,7 @@ h1 {
 }
 .k-txt>p{
     color: var(--yellow);
+    font-size: 1em;
 }
 .card-old-tv {
   grid-row: 2/3;
